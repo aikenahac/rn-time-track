@@ -5,7 +5,6 @@ import { timer } from './utils';
 
 export default function App() {
   const appState = useRef(AppState.currentState);
-
   let tmr = timer();
 
   useEffect(() => {
