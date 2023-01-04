@@ -13,7 +13,7 @@ export default function App() {
       console.log('AppState', appState.current);
 
       if (appState.current === 'active') tmr = timer();
-      else if (appState.current === 'background') {
+      else {
         console.log(tmr.seconds);
         // Make an API call here to send the timer data somewhere
       }
